@@ -1,0 +1,230 @@
+body{
+    background-color:rgba(2, 2, 37, 0.973)    ;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0 0;
+}
+.naav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgba(1, 1, 47, 0.84);
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 24px;
+}
+.second-right{
+    background-color:rgba(2, 2, 37, 0.973)  
+    ;
+    height: fit-content;
+    width: max-content;
+
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+section div{
+    margin-inline: 30px;
+}
+.first-left{
+    font-size: 50px;
+    width: 40%;
+    position: absolute;
+    margin-right: 50%;
+}
+.first-left span{
+    font-size: 50px;
+    color: brown    ;
+
+}
+.joker{
+    width: 500px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: rgb(164, 164, 185)
+}
+.right ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+
+}
+.left{
+    font-size: 220%;
+    font-family: 'Rubik Glitch', system-ui;
+    color: rgb(169, 67, 84);
+    text-shadow: 2px 2px #3731a9;
+}
+hr{
+    border: 0;
+    background-color: #9e9cc6;
+    /* color: red; */
+    height: 3px;
+    width: 90%;
+    margin-top: 20px;
+}
+.experience{
+    background-color: #9e9cc6;
+    height: 3px;
+    margin-top : 50px;
+    margin-inline: 170px;
+   
+}
+.work{
+    flex-direction: row;
+}
+.hell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    padding-top: 170px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    background-color: #9e9cc6;
+    height: 100px;
+    width: 3px; 
+    margin-inline: 150px;
+    position: relative;
+
+     
+}
+
+.two{
+    background-color: #9e9cc6;
+    height: 100px;
+    width: 3px; 
+    margin-inline: 150px;
+}
+
+.three{
+    background-color: #9e9cc6;
+    height: 100px;
+    width: 3px; 
+    margin-inline: 150px;
+     
+}
+.four{
+    background-color: #9e9cc6;
+    height: 100px;
+    width: 3px; 
+    margin-inline: 150px;
+    
+     
+}
+
+
+.lines{
+    
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 100px;
+    flex-direction: row;
+}
+.butt{
+    color: rgb(164, 164, 185);
+    margin-inline: 10px;
+    border: 2px solid rgb(164, 164, 185);
+    padding: 14px 28px;
+    border-radius: 9px;
+    background-color:transparent ;
+    font-size: 30%;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.butt:hover{
+    color: rgba(185, 11, 11, 0.949);
+    margin-inline: 10px;
+    border: 3px solid rgba(185, 11, 11, 0.949);
+    padding: 14px 28px;
+    border-radius: 9px;
+    background-color: transparent;
+    font-size: 35%;
+    cursor: pointer;
+}
+.lines div span{
+    position: relative;
+    display: block;
+    width: 170px;
+    top: 100px;
+    font-size: 20px;
+
+}   
+.tex{
+    font-size: xx-small;
+    width: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(164, 164, 185);
+    
+}
+.about{
+    margin-inline: 130px;
+
+}
+.work h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    padding-top: 60px;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+}
+.tex:hover{
+    font-size: small;
+    width: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(164, 164, 185);
+    cursor: pointer;
+}
+ .hr{
+    border: 0;
+    background-color: #9e9cc6;
+    /* color: red; */
+    height: 3px;
+    width: 90%;
+    margin-top: 120px;
+    margin-bottom: 20px ;
+ }
+ .hell span{
+    padding-left: 10px;
+    color: rgba(185, 11, 11, 0.949);
+ }
+ .myself{
+    position: relative;
+    opacity: 35%;
+    width: 40%;
+
+    
+ }
+ .logo{
+    width:100px ;
+    
+ }
+.logos{
+    margin-top: 60px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    }
+.logo:hover{
+    width: 6%;
+}
